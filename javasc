@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> .</title>
+  <style>
+    /* CSS 코드 */
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!-- HTML 내용 -->
+  <h1>자바스크립트 예제</h1>
+  <p id="message">버튼을 클릭해보세요!</p>
+  <button id="changeMessage">메시지 변경</button>
+
+  <!-- JavaScript 코드 -->
+  <script>
+    // JavaScript 코드
+    document.getElementById('changeMessage').addEventListener('click', function() {
+      document.getElementById('message').innerText = '메시지가 변경되었습니다!';
+    });
+  </script>
+</body>
+</html>
