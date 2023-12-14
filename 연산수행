@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2, sum;
+
+    // 사용자로부터 입력 받기
+    cout << "첫 번째 숫자를 입력하세요: ";
+    cin >> num1;
+
+    cout << "두 번째 숫자를 입력하세요: ";
+    cin >> num2;
+
+    // 입력 받은 숫자들 더하기
+    sum = num1 + num2;
+
+    // 결과 출력
+    cout << "두 숫자의 합은: " << sum << endl;
+
+    return 0;
+}
